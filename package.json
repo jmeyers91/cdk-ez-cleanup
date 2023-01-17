@@ -1,0 +1,30 @@
+{
+  "name": "cdk-ez-cleanup",
+  "version": "1.0.1",
+  "description": "A utility for easily deleting AWS CDK stacks",
+  "main": "dist/cdk-ez-cleanup.js",
+  "types": "dist/cdk-ez-cleanup.d.ts",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/jmeyers91/cdk-ez-cleanup"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "utility"
+  ],
+  "author": "James Meyers",
+  "license": "MIT",
+  "peerDependencies": {
+    "aws-cdk-lib": "^2.60.0",
+    "constructs": "^10.1.222"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
