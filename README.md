@@ -2,6 +2,12 @@
 
 Easily delete Cloudformation stacks created using the AWS CDK without having to worry about removal policies or delete protection settings. This package is not intended for production environments.
 
+### Features
+
+- Sets all removal policies to `RemovalPolicy.DESTROY`
+- Disables delete protection on RDS database instances and clusters
+- Disables termination protection on EC2 instances
+
 ## Install
 
 ```
