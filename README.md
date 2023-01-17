@@ -1,6 +1,6 @@
 # cdk-ez-cleanup
 
-Easily delete Cloudformation stacks created using the AWS CDK without having to worry about removal policies or delete protection settings. This package is not intended for production environments.
+Easily delete Cloudformation stacks created using the [AWS CDK](https://aws.amazon.com/cdk/) without having to worry about removal policies or delete protection settings. This package is not intended for production environments.
 
 ### Features
 
@@ -22,7 +22,7 @@ Call the `ezCleanup` function on your CDK stack to apply easy cleanup settings.
 ezCleanup(stack);
 ```
 
-Alternatively, you can manually create an `EzCleanupAspect` and add it to a construct manually.
+Alternatively, you can manually create an `EzCleanupAspect` and add it to a construct's [aspect](https://docs.aws.amazon.com/cdk/v2/guide/aspects.html) list.
 
 ```ts
 Aspects.of(stack).add(new EzCleanupAspect());
