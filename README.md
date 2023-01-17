@@ -11,9 +11,7 @@ Easily delete Cloudformation stacks created using the [AWS CDK](https://aws.amaz
 ## Install
 
 ```
-
 npm i cdk-ez-cleanup
-
 ```
 
 ## Usage

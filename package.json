@@ -1,6 +1,6 @@
 {
   "name": "cdk-ez-cleanup",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A utility for easily deleting AWS CDK stacks",
   "main": "dist/cdk-ez-cleanup.js",
   "types": "dist/cdk-ez-cleanup.d.ts",
